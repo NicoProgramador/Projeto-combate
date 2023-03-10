@@ -48,7 +48,7 @@ public class App {
         champion2 = new Champion(name2, initialLife2, attack2, armor2);
 
         for (int i = 0; i < N; i++) {
-            System.out.printf("Resultado do turno %d%n", i);
+            System.out.printf("Resultado do turno %d%n", i+1);
 
             champion1.takeDamage(champion2);
             System.out.println(champion1.status());
